@@ -139,17 +139,16 @@ HAL_TickFreqTypeDef uwTickFreq = HAL_TICK_FREQ_DEFAULT;  /* 1KHz */
   * @{
   */
 
-int fputc(int ch, FILE *f)
+int _write(int fd, char *ptr, int len)
 {
-  HAL_UART_Transmit(&huart1, (uint8_t *)&ch, 1, 0xffff);
-  return ch;
+    HAL_UART_Transmit(&huart1, (uint8_t *)ptr, len, 0xFFFF);
+    return len;
 }
 
-int fgetc(FILE *f)
+
+void _sys_exit(int x)
 {
-  uint8_t ch = 0;
-  HAL_UART_Receive(&huart1, &ch, 1, 0xffff);
-  return ch;
+    x = x;
 }
 
 

@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccnTtYTB.s 			page 1
+ARM GAS  /tmp/ccsQZo6Q.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccnTtYTB.s 			page 1
   29:Core/Src/main.c **** 
   30:Core/Src/main.c **** /* Private typedef -----------------------------------------------------------*/
   31:Core/Src/main.c **** /* USER CODE BEGIN PTD */
-ARM GAS  /tmp/ccnTtYTB.s 			page 2
+ARM GAS  /tmp/ccsQZo6Q.s 			page 2
 
 
   32:Core/Src/main.c **** 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccnTtYTB.s 			page 1
   86:Core/Src/main.c ****   /* USER CODE END SysInit */
   87:Core/Src/main.c **** 
   88:Core/Src/main.c ****   /* Initialize all configured peripherals */
-ARM GAS  /tmp/ccnTtYTB.s 			page 3
+ARM GAS  /tmp/ccsQZo6Q.s 			page 3
 
 
   89:Core/Src/main.c ****   MX_GPIO_Init();
@@ -126,7 +126,7 @@ ARM GAS  /tmp/ccnTtYTB.s 			page 1
   91:Core/Src/main.c ****   MX_USART1_UART_Init();
   92:Core/Src/main.c ****   /* USER CODE BEGIN 2 */
   93:Core/Src/main.c **** 
-  94:Core/Src/main.c ****   printf("testmessageaaaaaaaaaaaaaaaaaaaa");
+  94:Core/Src/main.c ****   printf("testmessageaaaaaaaaaaaaaaaaaaaa\n");
   95:Core/Src/main.c **** 
   96:Core/Src/main.c **** 
   97:Core/Src/main.c ****   /* USER CODE END 2 */
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccnTtYTB.s 			page 1
  143:Core/Src/main.c ****   RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
  144:Core/Src/main.c ****                               |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
  145:Core/Src/main.c ****   RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_HSI;
-ARM GAS  /tmp/ccnTtYTB.s 			page 4
+ARM GAS  /tmp/ccsQZo6Q.s 			page 4
 
 
  146:Core/Src/main.c ****   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccnTtYTB.s 			page 1
   26:Drivers/CMSIS/Include/cmsis_gcc.h **** #define __CMSIS_GCC_H
   27:Drivers/CMSIS/Include/cmsis_gcc.h **** 
   28:Drivers/CMSIS/Include/cmsis_gcc.h **** /* ignore some GCC warnings */
-ARM GAS  /tmp/ccnTtYTB.s 			page 5
+ARM GAS  /tmp/ccsQZo6Q.s 			page 5
 
 
   29:Drivers/CMSIS/Include/cmsis_gcc.h **** #pragma GCC diagnostic push
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccnTtYTB.s 			page 1
   83:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic pop
   84:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __UNALIGNED_UINT16_WRITE(addr, val)    (void)((((struct T_UINT16_WRITE *)(void *)(addr))-
   85:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
-ARM GAS  /tmp/ccnTtYTB.s 			page 6
+ARM GAS  /tmp/ccsQZo6Q.s 			page 6
 
 
   86:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __UNALIGNED_UINT16_READ
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccnTtYTB.s 			page 1
  140:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE void __disable_irq(void)
  141:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  142:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("cpsid i" : : : "memory");
-ARM GAS  /tmp/ccnTtYTB.s 			page 7
+ARM GAS  /tmp/ccsQZo6Q.s 			page 7
 
 
   37              		.loc 2 142 0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccnTtYTB.s 			page 1
   89 001e 116C     		ldr	r1, [r2, #64]
   90 0020 41F08051 		orr	r1, r1, #268435456
   91 0024 1164     		str	r1, [r2, #64]
-ARM GAS  /tmp/ccnTtYTB.s 			page 8
+ARM GAS  /tmp/ccsQZo6Q.s 			page 8
 
 
   92 0026 126C     		ldr	r2, [r2, #64]
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccnTtYTB.s 			page 1
  135              	.LVL1:
  136 0068 68B9     		cbnz	r0, .L7
  143:Core/Src/main.c ****                               |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
-ARM GAS  /tmp/ccnTtYTB.s 			page 9
+ARM GAS  /tmp/ccsQZo6Q.s 			page 9
 
 
  137              		.loc 1 143 0
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccnTtYTB.s 			page 1
  184              		.thumb_func
  185              		.fpu fpv4-sp-d16
  187              	main:
-ARM GAS  /tmp/ccnTtYTB.s 			page 10
+ARM GAS  /tmp/ccsQZo6Q.s 			page 10
 
 
  188              	.LFB130:
@@ -576,7 +576,7 @@ ARM GAS  /tmp/ccnTtYTB.s 			page 1
   94:Core/Src/main.c **** 
  214              		.loc 1 94 0
  215 0016 0248     		ldr	r0, .L14
- 216 0018 FFF7FEFF 		bl	printf
+ 216 0018 FFF7FEFF 		bl	puts
  217              	.LVL10:
  218              	.L12:
  219 001c FEE7     		b	.L12
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccnTtYTB.s 			page 1
  232              	.Letext0:
  233              		.file 3 "/usr/include/newlib/machine/_default_types.h"
  234              		.file 4 "/usr/include/newlib/sys/_stdint.h"
-ARM GAS  /tmp/ccnTtYTB.s 			page 11
+ARM GAS  /tmp/ccsQZo6Q.s 			page 11
 
 
  235              		.file 5 "Drivers/CMSIS/Include/core_cm4.h"
@@ -615,20 +615,20 @@ ARM GAS  /tmp/ccnTtYTB.s 			page 1
  246              		.file 16 "Core/Inc/usart.h"
  247              		.file 17 "Core/Inc/gpio.h"
  248              		.file 18 "<built-in>"
-ARM GAS  /tmp/ccnTtYTB.s 			page 12
+ARM GAS  /tmp/ccsQZo6Q.s 			page 12
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 main.c
-     /tmp/ccnTtYTB.s:18     .text.Error_Handler:0000000000000000 $t
-     /tmp/ccnTtYTB.s:25     .text.Error_Handler:0000000000000000 Error_Handler
-     /tmp/ccnTtYTB.s:52     .text.SystemClock_Config:0000000000000000 $t
-     /tmp/ccnTtYTB.s:59     .text.SystemClock_Config:0000000000000000 SystemClock_Config
-     /tmp/ccnTtYTB.s:174    .text.SystemClock_Config:0000000000000090 $d
-     /tmp/ccnTtYTB.s:180    .text.main:0000000000000000 $t
-     /tmp/ccnTtYTB.s:187    .text.main:0000000000000000 main
-     /tmp/ccnTtYTB.s:223    .text.main:0000000000000020 $d
-     /tmp/ccnTtYTB.s:228    .rodata.main.str1.4:0000000000000000 $d
+     /tmp/ccsQZo6Q.s:18     .text.Error_Handler:0000000000000000 $t
+     /tmp/ccsQZo6Q.s:25     .text.Error_Handler:0000000000000000 Error_Handler
+     /tmp/ccsQZo6Q.s:52     .text.SystemClock_Config:0000000000000000 $t
+     /tmp/ccsQZo6Q.s:59     .text.SystemClock_Config:0000000000000000 SystemClock_Config
+     /tmp/ccsQZo6Q.s:174    .text.SystemClock_Config:0000000000000090 $d
+     /tmp/ccsQZo6Q.s:180    .text.main:0000000000000000 $t
+     /tmp/ccsQZo6Q.s:187    .text.main:0000000000000000 main
+     /tmp/ccsQZo6Q.s:223    .text.main:0000000000000020 $d
+     /tmp/ccsQZo6Q.s:228    .rodata.main.str1.4:0000000000000000 $d
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS
@@ -639,4 +639,4 @@ HAL_Init
 MX_GPIO_Init
 MX_RNG_Init
 MX_USART1_UART_Init
-printf
+puts

@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc5GyXDf.s 			page 1
+ARM GAS  /tmp/cckxdZvt.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc5GyXDf.s 			page 1
   29:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c **** 
   30:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c **** /** @defgroup PWR PWR
   31:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   * @brief PWR HAL module driver
-ARM GAS  /tmp/cc5GyXDf.s 			page 2
+ARM GAS  /tmp/cckxdZvt.s 			page 2
 
 
   32:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   * @{
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc5GyXDf.s 			page 1
   86:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c **** /**
   87:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   * @brief Deinitializes the HAL PWR peripheral registers to their default reset values.
   88:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   * @retval None
-ARM GAS  /tmp/cc5GyXDf.s 			page 3
+ARM GAS  /tmp/cckxdZvt.s 			page 3
 
 
   89:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   */
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc5GyXDf.s 			page 1
   63              		@ frame_needed = 0, uses_anonymous_args = 0
   64              		@ link register save eliminated.
   65 0000 82B0     		sub	sp, sp, #8
-ARM GAS  /tmp/cc5GyXDf.s 			page 4
+ARM GAS  /tmp/cckxdZvt.s 			page 4
 
 
   66              	.LCFI0:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc5GyXDf.s 			page 1
  102              		.loc 1 129 0
  103              		.cfi_startproc
  104              		@ args = 0, pretend = 0, frame = 8
-ARM GAS  /tmp/cc5GyXDf.s 			page 5
+ARM GAS  /tmp/cckxdZvt.s 			page 5
 
 
  105              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc5GyXDf.s 			page 1
  147:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****  ===============================================================================
  148:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****      
  149:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****     *** PVD configuration ***
-ARM GAS  /tmp/cc5GyXDf.s 			page 6
+ARM GAS  /tmp/cckxdZvt.s 			page 6
 
 
  150:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****     =========================
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc5GyXDf.s 			page 1
  204:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****       the HAL_PWREx_DisableFlashPowerDown() function. 
  205:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c **** 
  206:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****       (+) Entry:
-ARM GAS  /tmp/cc5GyXDf.s 			page 7
+ARM GAS  /tmp/cckxdZvt.s 			page 7
 
 
  207:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****          The Stop mode is entered using the HAL_PWR_EnterSTOPMode(PWR_MAINREGULATOR_ON) 
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc5GyXDf.s 			page 1
  261:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   * @note Refer to the electrical characteristics of your device datasheet for
  262:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   *         more details about the voltage threshold corresponding to each 
  263:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   *         detection level.
-ARM GAS  /tmp/cc5GyXDf.s 			page 8
+ARM GAS  /tmp/cckxdZvt.s 			page 8
 
 
  264:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   * @retval None
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc5GyXDf.s 			page 1
  284:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****     __HAL_PWR_PVD_EXTI_ENABLE_IT();
  178              		.loc 1 284 0
  179 0038 114A     		ldr	r2, .L17+4
-ARM GAS  /tmp/cc5GyXDf.s 			page 9
+ARM GAS  /tmp/cckxdZvt.s 			page 9
 
 
  180 003a 1368     		ldr	r3, [r2]
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc5GyXDf.s 			page 1
  217              	.L17:
  218 007c 00700040 		.word	1073770496
  219 0080 003C0140 		.word	1073822720
-ARM GAS  /tmp/cc5GyXDf.s 			page 10
+ARM GAS  /tmp/cckxdZvt.s 			page 10
 
 
  220              		.cfi_endproc
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc5GyXDf.s 			page 1
  260              		.loc 1 319 0
  261              		.cfi_startproc
  262              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/cc5GyXDf.s 			page 11
+ARM GAS  /tmp/cckxdZvt.s 			page 11
 
 
  263              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc5GyXDf.s 			page 1
  300              	.L27:
  301 000a 00BF     		.align	2
  302              	.L26:
-ARM GAS  /tmp/cc5GyXDf.s 			page 12
+ARM GAS  /tmp/cckxdZvt.s 			page 12
 
 
  303 000c 00700040 		.word	1073770496
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc5GyXDf.s 			page 1
  342              		.thumb_func
  343              		.fpu fpv4-sp-d16
  345              	HAL_PWR_EnterSLEEPMode:
-ARM GAS  /tmp/cc5GyXDf.s 			page 13
+ARM GAS  /tmp/cckxdZvt.s 			page 13
 
 
  346              	.LFB138:
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc5GyXDf.s 			page 1
  396:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****     /* Request Wait For Event */
  397:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****     __SEV();
  361              		.loc 1 397 0
-ARM GAS  /tmp/cc5GyXDf.s 			page 14
+ARM GAS  /tmp/cckxdZvt.s 			page 14
 
 
  362              		.syntax unified
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cc5GyXDf.s 			page 1
  412:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   * @param Regulator Specifies the regulator state in Stop mode.
  413:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   *          This parameter can be one of the following values:
  414:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   *            @arg PWR_MAINREGULATOR_ON: Stop mode with regulator ON
-ARM GAS  /tmp/cc5GyXDf.s 			page 15
+ARM GAS  /tmp/cckxdZvt.s 			page 15
 
 
  415:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   *            @arg PWR_LOWPOWERREGULATOR_ON: Stop mode with low power regulator ON
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cc5GyXDf.s 			page 1
  428              	@ 0 "" 2
  444:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****     __WFE();
  429              		.loc 1 444 0
-ARM GAS  /tmp/cc5GyXDf.s 			page 16
+ARM GAS  /tmp/cckxdZvt.s 			page 16
 
 
  430              	@ 444 "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" 1
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cc5GyXDf.s 			page 1
  457:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   *          - RTC_AF2 pin (PI8) if configured for tamper or time-stamp.  
  458:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   *          - WKUP pin 1 (PA0) if enabled.       
  459:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   * @retval None
-ARM GAS  /tmp/cc5GyXDf.s 			page 17
+ARM GAS  /tmp/cckxdZvt.s 			page 17
 
 
  460:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   */
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cc5GyXDf.s 			page 1
  475:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c **** }
  476:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c **** 
  477:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c **** /**
-ARM GAS  /tmp/cc5GyXDf.s 			page 18
+ARM GAS  /tmp/cckxdZvt.s 			page 18
 
 
  478:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   * @brief This function handles the PWR PVD interrupt request.
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cc5GyXDf.s 			page 1
  544 0002 064B     		ldr	r3, .L51
  545 0004 5B69     		ldr	r3, [r3, #20]
  546 0006 13F4803F 		tst	r3, #65536
-ARM GAS  /tmp/cc5GyXDf.s 			page 19
+ARM GAS  /tmp/cckxdZvt.s 			page 19
 
 
  547 000a 00D1     		bne	.L50
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cc5GyXDf.s 			page 1
  583 0000 024A     		ldr	r2, .L54
  584 0002 1369     		ldr	r3, [r2, #16]
  585 0004 43F00203 		orr	r3, r3, #2
-ARM GAS  /tmp/cc5GyXDf.s 			page 20
+ARM GAS  /tmp/cckxdZvt.s 			page 20
 
 
  586 0008 1361     		str	r3, [r2, #16]
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cc5GyXDf.s 			page 1
  632              	.LFB145:
  530:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c **** }
  531:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c **** 
-ARM GAS  /tmp/cc5GyXDf.s 			page 21
+ARM GAS  /tmp/cckxdZvt.s 			page 21
 
 
  532:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c **** /**
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cc5GyXDf.s 			page 1
  667 0000 024A     		ldr	r2, .L63
  668 0002 1369     		ldr	r3, [r2, #16]
  669 0004 23F01003 		bic	r3, r3, #16
-ARM GAS  /tmp/cc5GyXDf.s 			page 22
+ARM GAS  /tmp/cckxdZvt.s 			page 22
 
 
  670 0008 1361     		str	r3, [r2, #16]
@@ -1279,61 +1279,61 @@ ARM GAS  /tmp/cc5GyXDf.s 			page 1
  686              		.file 7 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h"
  687              		.file 8 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h"
  688              		.file 9 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h"
-ARM GAS  /tmp/cc5GyXDf.s 			page 23
+ARM GAS  /tmp/cckxdZvt.s 			page 23
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32f4xx_hal_pwr.c
-     /tmp/cc5GyXDf.s:18     .text.HAL_PWR_DeInit:0000000000000000 $t
-     /tmp/cc5GyXDf.s:25     .text.HAL_PWR_DeInit:0000000000000000 HAL_PWR_DeInit
-     /tmp/cc5GyXDf.s:46     .text.HAL_PWR_DeInit:0000000000000014 $d
-     /tmp/cc5GyXDf.s:51     .text.HAL_PWR_EnableBkUpAccess:0000000000000000 $t
-     /tmp/cc5GyXDf.s:58     .text.HAL_PWR_EnableBkUpAccess:0000000000000000 HAL_PWR_EnableBkUpAccess
-     /tmp/cc5GyXDf.s:87     .text.HAL_PWR_EnableBkUpAccess:0000000000000014 $d
-     /tmp/cc5GyXDf.s:93     .text.HAL_PWR_DisableBkUpAccess:0000000000000000 $t
-     /tmp/cc5GyXDf.s:100    .text.HAL_PWR_DisableBkUpAccess:0000000000000000 HAL_PWR_DisableBkUpAccess
-     /tmp/cc5GyXDf.s:129    .text.HAL_PWR_DisableBkUpAccess:0000000000000014 $d
-     /tmp/cc5GyXDf.s:135    .text.HAL_PWR_ConfigPVD:0000000000000000 $t
-     /tmp/cc5GyXDf.s:142    .text.HAL_PWR_ConfigPVD:0000000000000000 HAL_PWR_ConfigPVD
-     /tmp/cc5GyXDf.s:218    .text.HAL_PWR_ConfigPVD:000000000000007c $d
-     /tmp/cc5GyXDf.s:224    .text.HAL_PWR_EnablePVD:0000000000000000 $t
-     /tmp/cc5GyXDf.s:231    .text.HAL_PWR_EnablePVD:0000000000000000 HAL_PWR_EnablePVD
-     /tmp/cc5GyXDf.s:246    .text.HAL_PWR_EnablePVD:0000000000000008 $d
-     /tmp/cc5GyXDf.s:251    .text.HAL_PWR_DisablePVD:0000000000000000 $t
-     /tmp/cc5GyXDf.s:258    .text.HAL_PWR_DisablePVD:0000000000000000 HAL_PWR_DisablePVD
-     /tmp/cc5GyXDf.s:273    .text.HAL_PWR_DisablePVD:0000000000000008 $d
-     /tmp/cc5GyXDf.s:278    .text.HAL_PWR_EnableWakeUpPin:0000000000000000 $t
-     /tmp/cc5GyXDf.s:285    .text.HAL_PWR_EnableWakeUpPin:0000000000000000 HAL_PWR_EnableWakeUpPin
-     /tmp/cc5GyXDf.s:303    .text.HAL_PWR_EnableWakeUpPin:000000000000000c $d
-     /tmp/cc5GyXDf.s:308    .text.HAL_PWR_DisableWakeUpPin:0000000000000000 $t
-     /tmp/cc5GyXDf.s:315    .text.HAL_PWR_DisableWakeUpPin:0000000000000000 HAL_PWR_DisableWakeUpPin
-     /tmp/cc5GyXDf.s:333    .text.HAL_PWR_DisableWakeUpPin:000000000000000c $d
-     /tmp/cc5GyXDf.s:338    .text.HAL_PWR_EnterSLEEPMode:0000000000000000 $t
-     /tmp/cc5GyXDf.s:345    .text.HAL_PWR_EnterSLEEPMode:0000000000000000 HAL_PWR_EnterSLEEPMode
-     /tmp/cc5GyXDf.s:389    .text.HAL_PWR_EnterSLEEPMode:000000000000001c $d
-     /tmp/cc5GyXDf.s:394    .text.HAL_PWR_EnterSTOPMode:0000000000000000 $t
-     /tmp/cc5GyXDf.s:401    .text.HAL_PWR_EnterSTOPMode:0000000000000000 HAL_PWR_EnterSTOPMode
-     /tmp/cc5GyXDf.s:458    .text.HAL_PWR_EnterSTOPMode:0000000000000030 $d
-     /tmp/cc5GyXDf.s:464    .text.HAL_PWR_EnterSTANDBYMode:0000000000000000 $t
-     /tmp/cc5GyXDf.s:471    .text.HAL_PWR_EnterSTANDBYMode:0000000000000000 HAL_PWR_EnterSTANDBYMode
-     /tmp/cc5GyXDf.s:499    .text.HAL_PWR_EnterSTANDBYMode:0000000000000018 $d
-     /tmp/cc5GyXDf.s:505    .text.HAL_PWR_PVDCallback:0000000000000000 $t
-     /tmp/cc5GyXDf.s:512    .text.HAL_PWR_PVDCallback:0000000000000000 HAL_PWR_PVDCallback
-     /tmp/cc5GyXDf.s:524    .text.HAL_PWR_PVD_IRQHandler:0000000000000000 $t
-     /tmp/cc5GyXDf.s:531    .text.HAL_PWR_PVD_IRQHandler:0000000000000000 HAL_PWR_PVD_IRQHandler
-     /tmp/cc5GyXDf.s:563    .text.HAL_PWR_PVD_IRQHandler:000000000000001c $d
-     /tmp/cc5GyXDf.s:568    .text.HAL_PWR_EnableSleepOnExit:0000000000000000 $t
-     /tmp/cc5GyXDf.s:575    .text.HAL_PWR_EnableSleepOnExit:0000000000000000 HAL_PWR_EnableSleepOnExit
-     /tmp/cc5GyXDf.s:591    .text.HAL_PWR_EnableSleepOnExit:000000000000000c $d
-     /tmp/cc5GyXDf.s:596    .text.HAL_PWR_DisableSleepOnExit:0000000000000000 $t
-     /tmp/cc5GyXDf.s:603    .text.HAL_PWR_DisableSleepOnExit:0000000000000000 HAL_PWR_DisableSleepOnExit
-     /tmp/cc5GyXDf.s:619    .text.HAL_PWR_DisableSleepOnExit:000000000000000c $d
-     /tmp/cc5GyXDf.s:624    .text.HAL_PWR_EnableSEVOnPend:0000000000000000 $t
-     /tmp/cc5GyXDf.s:631    .text.HAL_PWR_EnableSEVOnPend:0000000000000000 HAL_PWR_EnableSEVOnPend
-     /tmp/cc5GyXDf.s:647    .text.HAL_PWR_EnableSEVOnPend:000000000000000c $d
-     /tmp/cc5GyXDf.s:652    .text.HAL_PWR_DisableSEVOnPend:0000000000000000 $t
-     /tmp/cc5GyXDf.s:659    .text.HAL_PWR_DisableSEVOnPend:0000000000000000 HAL_PWR_DisableSEVOnPend
-     /tmp/cc5GyXDf.s:675    .text.HAL_PWR_DisableSEVOnPend:000000000000000c $d
+     /tmp/cckxdZvt.s:18     .text.HAL_PWR_DeInit:0000000000000000 $t
+     /tmp/cckxdZvt.s:25     .text.HAL_PWR_DeInit:0000000000000000 HAL_PWR_DeInit
+     /tmp/cckxdZvt.s:46     .text.HAL_PWR_DeInit:0000000000000014 $d
+     /tmp/cckxdZvt.s:51     .text.HAL_PWR_EnableBkUpAccess:0000000000000000 $t
+     /tmp/cckxdZvt.s:58     .text.HAL_PWR_EnableBkUpAccess:0000000000000000 HAL_PWR_EnableBkUpAccess
+     /tmp/cckxdZvt.s:87     .text.HAL_PWR_EnableBkUpAccess:0000000000000014 $d
+     /tmp/cckxdZvt.s:93     .text.HAL_PWR_DisableBkUpAccess:0000000000000000 $t
+     /tmp/cckxdZvt.s:100    .text.HAL_PWR_DisableBkUpAccess:0000000000000000 HAL_PWR_DisableBkUpAccess
+     /tmp/cckxdZvt.s:129    .text.HAL_PWR_DisableBkUpAccess:0000000000000014 $d
+     /tmp/cckxdZvt.s:135    .text.HAL_PWR_ConfigPVD:0000000000000000 $t
+     /tmp/cckxdZvt.s:142    .text.HAL_PWR_ConfigPVD:0000000000000000 HAL_PWR_ConfigPVD
+     /tmp/cckxdZvt.s:218    .text.HAL_PWR_ConfigPVD:000000000000007c $d
+     /tmp/cckxdZvt.s:224    .text.HAL_PWR_EnablePVD:0000000000000000 $t
+     /tmp/cckxdZvt.s:231    .text.HAL_PWR_EnablePVD:0000000000000000 HAL_PWR_EnablePVD
+     /tmp/cckxdZvt.s:246    .text.HAL_PWR_EnablePVD:0000000000000008 $d
+     /tmp/cckxdZvt.s:251    .text.HAL_PWR_DisablePVD:0000000000000000 $t
+     /tmp/cckxdZvt.s:258    .text.HAL_PWR_DisablePVD:0000000000000000 HAL_PWR_DisablePVD
+     /tmp/cckxdZvt.s:273    .text.HAL_PWR_DisablePVD:0000000000000008 $d
+     /tmp/cckxdZvt.s:278    .text.HAL_PWR_EnableWakeUpPin:0000000000000000 $t
+     /tmp/cckxdZvt.s:285    .text.HAL_PWR_EnableWakeUpPin:0000000000000000 HAL_PWR_EnableWakeUpPin
+     /tmp/cckxdZvt.s:303    .text.HAL_PWR_EnableWakeUpPin:000000000000000c $d
+     /tmp/cckxdZvt.s:308    .text.HAL_PWR_DisableWakeUpPin:0000000000000000 $t
+     /tmp/cckxdZvt.s:315    .text.HAL_PWR_DisableWakeUpPin:0000000000000000 HAL_PWR_DisableWakeUpPin
+     /tmp/cckxdZvt.s:333    .text.HAL_PWR_DisableWakeUpPin:000000000000000c $d
+     /tmp/cckxdZvt.s:338    .text.HAL_PWR_EnterSLEEPMode:0000000000000000 $t
+     /tmp/cckxdZvt.s:345    .text.HAL_PWR_EnterSLEEPMode:0000000000000000 HAL_PWR_EnterSLEEPMode
+     /tmp/cckxdZvt.s:389    .text.HAL_PWR_EnterSLEEPMode:000000000000001c $d
+     /tmp/cckxdZvt.s:394    .text.HAL_PWR_EnterSTOPMode:0000000000000000 $t
+     /tmp/cckxdZvt.s:401    .text.HAL_PWR_EnterSTOPMode:0000000000000000 HAL_PWR_EnterSTOPMode
+     /tmp/cckxdZvt.s:458    .text.HAL_PWR_EnterSTOPMode:0000000000000030 $d
+     /tmp/cckxdZvt.s:464    .text.HAL_PWR_EnterSTANDBYMode:0000000000000000 $t
+     /tmp/cckxdZvt.s:471    .text.HAL_PWR_EnterSTANDBYMode:0000000000000000 HAL_PWR_EnterSTANDBYMode
+     /tmp/cckxdZvt.s:499    .text.HAL_PWR_EnterSTANDBYMode:0000000000000018 $d
+     /tmp/cckxdZvt.s:505    .text.HAL_PWR_PVDCallback:0000000000000000 $t
+     /tmp/cckxdZvt.s:512    .text.HAL_PWR_PVDCallback:0000000000000000 HAL_PWR_PVDCallback
+     /tmp/cckxdZvt.s:524    .text.HAL_PWR_PVD_IRQHandler:0000000000000000 $t
+     /tmp/cckxdZvt.s:531    .text.HAL_PWR_PVD_IRQHandler:0000000000000000 HAL_PWR_PVD_IRQHandler
+     /tmp/cckxdZvt.s:563    .text.HAL_PWR_PVD_IRQHandler:000000000000001c $d
+     /tmp/cckxdZvt.s:568    .text.HAL_PWR_EnableSleepOnExit:0000000000000000 $t
+     /tmp/cckxdZvt.s:575    .text.HAL_PWR_EnableSleepOnExit:0000000000000000 HAL_PWR_EnableSleepOnExit
+     /tmp/cckxdZvt.s:591    .text.HAL_PWR_EnableSleepOnExit:000000000000000c $d
+     /tmp/cckxdZvt.s:596    .text.HAL_PWR_DisableSleepOnExit:0000000000000000 $t
+     /tmp/cckxdZvt.s:603    .text.HAL_PWR_DisableSleepOnExit:0000000000000000 HAL_PWR_DisableSleepOnExit
+     /tmp/cckxdZvt.s:619    .text.HAL_PWR_DisableSleepOnExit:000000000000000c $d
+     /tmp/cckxdZvt.s:624    .text.HAL_PWR_EnableSEVOnPend:0000000000000000 $t
+     /tmp/cckxdZvt.s:631    .text.HAL_PWR_EnableSEVOnPend:0000000000000000 HAL_PWR_EnableSEVOnPend
+     /tmp/cckxdZvt.s:647    .text.HAL_PWR_EnableSEVOnPend:000000000000000c $d
+     /tmp/cckxdZvt.s:652    .text.HAL_PWR_DisableSEVOnPend:0000000000000000 $t
+     /tmp/cckxdZvt.s:659    .text.HAL_PWR_DisableSEVOnPend:0000000000000000 HAL_PWR_DisableSEVOnPend
+     /tmp/cckxdZvt.s:675    .text.HAL_PWR_DisableSEVOnPend:000000000000000c $d
                      .debug_frame:0000000000000010 $d
 
 NO UNDEFINED SYMBOLS
